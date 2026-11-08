@@ -39,3 +39,8 @@ meeting_minutes_*.txt
 # Operating system
 .DS_Store
 Thumbs.db
+
+# Private meeting recordings
+*.wav
+*.mp3
+*.m4a
