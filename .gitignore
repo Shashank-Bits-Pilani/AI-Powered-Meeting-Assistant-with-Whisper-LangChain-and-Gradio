@@ -1,0 +1,41 @@
+
+
+# Python virtual environments
+venv/
+.venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# PyCharm
+.idea/
+
+# Environment variables and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Model files and caches
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+models/
+.cache/
+
+# Generated meeting output
+meeting_minutes_and_tasks.txt
+meeting_minutes_*.txt
+
+# Temporary files
+*.tmp
+*.log
+
+# Operating system
+.DS_Store
+Thumbs.db
